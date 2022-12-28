@@ -61,5 +61,5 @@ To easily control your `node` version and easily switch between them, we recomme
 
 You can find out your current Node version by running `node --version` in your terminal.
 
-> **_NOTE:_** External packages can be used to acomplish this task although the submitted solution needs to match the UI design and functionality required as per the task description. 
+> **_Important:_** External packages can be used to acomplish this task although the submitted solution needs to match the UI design and functionality required as per the task description. 
 
