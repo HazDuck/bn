@@ -60,3 +60,6 @@ To be able to build the task, ensure your local Node and Yarn versions match the
 To easily control your `node` version and easily switch between them, we recommend installing [NVM](https://github.com/nvm-sh/nvm) and using that to install and easily switch to a different version.
 
 You can find out your current Node version by running `node --version` in your terminal.
+
+> **_NOTE:_** External packages can be used to acomplish this task although the submitted solution needs to match the UI design and functionality required as per the task description. 
+
