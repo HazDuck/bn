@@ -1,0 +1,83 @@
+
+.delivery {
+  width: 270px;
+  background-color: $brand-yellow-100;
+  padding: 1rem;
+
+  .heading {
+    font-weight: 700;
+    line-height: 130%;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+
+    &--sticker {
+      background-color: $brand-yellow-200;
+      padding: 0.4rem 0.25rem 0.25rem;
+      font-size: .75rem;
+      line-height: 100%;
+      margin-left: 1rem;
+    }
+  }
+
+  .info-bar {
+    display: flex;
+    justify-content: space-between;
+    background-color: $brand-white;
+    -webkit-box-shadow: 4px 6px 6px -2px rgba(173,170,173,0.57);
+    -moz-box-shadow: 4px 6px 6px -2px rgba(173,170,173,0.57);
+    box-shadow: 4px 6px 6px -2px rgba(173,170,173,0.57);
+
+    &--content-container {
+      padding: 0.5rem;
+    }
+
+    &--date {
+      font-size: 0.8rem;
+      font-weight: 800;
+    }
+
+    &--sticker {
+      font-size: 0.75rem;
+      background-color: $success-green-100;
+      display: flex;
+      align-items: center;
+      padding: .4rem;
+
+      p {
+        color: $success-green-300;
+        font-weight: 200;
+      }
+
+      img {
+        display: block;
+        margin-right: 0.5rem;
+        width: 1rem;
+        height: auto;
+      }
+    }
+
+    &--button {
+      background-color: $support-blue-200;
+      padding: 0.5rem;
+      cursor: pointer;
+
+      img {
+        width: 1rem;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+      };
+
+      &__text {
+        font-size: 0.75rem;
+        text-decoration: underline;
+        letter-spacing: 0.03rem;
+
+        &::after {
+          content: '\203A';
+          margin-left: 0.3rem;
+        }
+      }
+    }
+  }
+}

@@ -1,3 +1,17 @@
-.App {
-  
+@import './brand-colours.scss';
+@import './index.scss';
+@import './fonts.scss';
+//components
+@import './components/delivery.scss';
+
+body {
+  color: $brand-blue-500;
+
+  h1 {
+    font-family: $font-family-headings;
+  }
+
+  p {
+    font-family: $font-family-base-regular;
+  }
 }

@@ -1,9 +1,8 @@
 import '../src/styles/app.scss'
+import Delivery from './components/Delivery'
 
 const App = () => (
-  <div className="App">
-    <p>howdy</p>
-  </div>
+  <Delivery />
 )
 
 export default App
