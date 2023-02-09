@@ -1,7 +1,13 @@
 import CalendarImg from '../assets/calendar.svg'
 import VanImg from '../assets/van.svg'
+import  {Dispatch, SetStateAction} from 'react';
 
-const Delivery = () => {
+interface Props {
+  showCalendar: boolean, 
+  setShowCalendar: Dispatch<SetStateAction<boolean>>
+}
+
+const Delivery = ({showCalendar, setShowCalendar}: Props) : JSX.Element => {
   return (
     <div className="delivery">
       <h1 className="heading">Choose your delivery day<span className="heading--sticker">Delivery is always free</span></h1>
@@ -14,7 +20,7 @@ const Delivery = () => {
           </div>
 
         </div>
-        <button className="info-bar--button">
+        <button className="info-bar--button" onClick={() => setShowCalendar(!showCalendar)}>
           <img src={CalendarImg} alt="Calendar" />
           <p className="info-bar--button__text">Change</p>
         </button>
