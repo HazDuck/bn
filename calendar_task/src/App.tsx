@@ -1,7 +1,9 @@
-import './App.sass';
+import '../src/styles/app.scss'
 
 const App = () => (
-  <div className="App"></div>
+  <div className="App">
+    <p>howdy</p>
+  </div>
 )
 
 export default App
