@@ -1,3 +1,16 @@
+# To dos (if I was to spend longer on the task):
+
+- Add some tests
+- In retrospect I probably would have liked to use styled-components but went for global style sheet as I thought it would be quicker
+- Tidy up TS some as some ANYs left in due to time
+- Finish any missed requirements
+- Finish the styling to match designs
+- Disable selecting a date in the past
+- More user testing on the calendar cancel/change date buttons to ensure functionality
+- Double check accessibility
+- Futher features: delivery notes, highlight bank holidays etc in the calendar, select AM vs PM delivery time 
+
+
 # Calendar Task
 
 ## Introduction
