@@ -1,7 +1,7 @@
 
 .delivery {
   width: 270px;
-  background-color: $brand-yellow-100;
+  background-color: $grey-100;
   padding: 1rem;
 
   .heading {
@@ -11,7 +11,7 @@
     margin-bottom: 1rem;
 
     &--sticker {
-      background-color: $brand-yellow-200;
+      background-color: $grey-200;
       padding: 0.4rem 0.25rem 0.25rem;
       font-size: .75rem;
       line-height: 100%;
@@ -44,7 +44,6 @@
       padding: .4rem;
 
       p {
-        color: $success-green-300;
         font-weight: 200;
       }
 
@@ -57,7 +56,7 @@
     }
 
     &--button {
-      background-color: $support-blue-200;
+      background-color: $brand-blue-200;
       padding: 0.5rem;
       cursor: pointer;
 
@@ -65,7 +64,7 @@
         width: 1rem;
         height: auto;
         display: block;
-        margin: 0 auto;
+        margin: 0 auto 0.25rem;
       };
 
       &__text {

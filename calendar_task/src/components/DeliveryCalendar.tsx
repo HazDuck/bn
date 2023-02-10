@@ -35,8 +35,8 @@ const DeliveryCalendar = ({ setDate, setShowCalendar }: Props) : JSX.Element => 
             onChange={(value: any) => setTempDate(value)}
             tileDisabled={({date}) => date.getDay() === 2 || date.getDay() === 5 || date.getDay() === 6}
           />
-          <button onClick={() => setShowCalendar(false)}>CANCEL, DONT CHANGE</button>
-          <button onClick={() => setUpdateDate(true)}>CHANGE DATE</button>
+          <button className='calendar-container--button' onClick={() => setShowCalendar(false)}>CANCEL, DONT CHANGE</button>
+          <button className='calendar-container--button' onClick={() => setUpdateDate(true)}>CHANGE DATE</button>
         </div>
       </div>
     </>

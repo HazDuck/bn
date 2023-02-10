@@ -3,7 +3,7 @@
 @import './fonts.scss';
 
 //components
-@import './components/delivery.scss';
+@import './components/deliveryInfo.scss';
 @import './components/deliveryCalendar.scss';
 
 //base styles
@@ -14,7 +14,11 @@ body {
     font-family: $font-family-headings;
   }
 
-  p {
+  p, button, span {
     font-family: $font-family-base-regular;
+  }
+
+  button {
+    cursor: pointer;
   }
 }
