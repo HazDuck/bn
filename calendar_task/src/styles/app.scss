@@ -1,9 +1,12 @@
 @import './brand-colours.scss';
 @import './index.scss';
 @import './fonts.scss';
+
 //components
 @import './components/delivery.scss';
+@import './components/deliveryCalendar.scss';
 
+//base styles
 body {
   color: $brand-blue-500;
 
