@@ -11,6 +11,7 @@ interface Props {
 const DeliveryCalendar = ({ setDate, setShowCalendar }: Props) : JSX.Element => {
   const [tempDate, setTempDate] = useState(null)
   const [updateDate, setUpdateDate] = useState(false)
+  const [animate, setAnimate] = useState(false)
 
   useEffect(() => {
     if (tempDate && updateDate) {
@@ -21,11 +22,15 @@ const DeliveryCalendar = ({ setDate, setShowCalendar }: Props) : JSX.Element => 
     }
   }, [tempDate, updateDate])
 
+  useEffect(() => {
+    setAnimate(true)
+  }, [])
+
   return (  
     <>
       <div className='container'>
-        <div className='modal' onClick={() => setShowCalendar(false)}/>
-        <div className='calendar-container'>
+        <div className={`modal animate ${animate ? 'start' : ''}`} onClick={() => setShowCalendar(false)}/>
+        <div className={`calendar-container animate ${animate ? 'start' : ''}`}>
           <Calendar 
             onChange={(value: any) => setTempDate(value)}
             tileDisabled={({date}) => date.getDay() === 2 || date.getDay() === 5 || date.getDay() === 6}

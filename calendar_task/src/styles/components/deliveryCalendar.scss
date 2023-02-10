@@ -1,5 +1,16 @@
 .container {
   position: relative;
+
+  .animate {
+    transition-duration: 333ms;
+    transition-timing-function: ease-in-out;
+    opacity: 0;
+    transition-property: opacity;
+  }
+
+  .start {
+    opacity: 1;
+  }
   
   .modal {
     background-color: $grey-600;
