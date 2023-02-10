@@ -1,8 +1,8 @@
 # To dos (if I was to spend longer on the task):
 
 - Add some tests
-- In retrospect I probably would have liked to use styled-components but went for global style sheet as I thought it would be quicker
-- Tidy up TS some as some ANYs left in due to time
+- In retrospect I probably would have liked to use styled-components but went for global style sheet as I was short on time
+- Tidy up TS (some ANYs left in due to time)
 - Finish any missed requirements
 - Finish the styling to match designs
 - Disable selecting a date in the past
